@@ -10,8 +10,7 @@ import { swaggerDoc } from '../openapi/index.js';
 export default function (server) {
   // Whitelist de orígenes permitidos
   const whitelist = [
-    'http://localhost:4200',
-    'https://board.versuselearning.com'
+    'http://localhost:4200'
   ];
   const corsOptions = {
     origin: (origin, callback) => {
